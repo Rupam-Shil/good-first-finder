@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GitHub Good First Issues
+
+A web application that helps developers find and contribute to open-source projects by searching for "good first issues" on GitHub. This tool makes it easier for newcomers to start their open-source journey by providing an intuitive interface to discover beginner-friendly issues.
+
+![GitHub Good First Issues](public/logo.png)
+
+## Features
+
+- **Smart Search**: Find repositories containing "good first issues" with comprehensive filtering options
+- **Detailed Information**: View complete issue details including repository info, descriptions, labels, and assignees
+- **Modern UI**: Clean and intuitive interface built with Next.js and Tailwind CSS
+- **Real-time Updates**: Auto-updating results as you modify search criteria
+- **Repository Insights**: Quick access to repository stars, activity, and other metrics
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org) - React framework for production
+- [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS framework
+- [GitHub API](https://docs.github.com/en/rest) - For fetching repository and issue data
+- [Bun](https://bun.sh) - Fast JavaScript runtime and package manager
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- [Bun](https://bun.sh) installed on your machine
+
+### Installation
+
+1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+git clone https://github.com/yourusername/good-first-issue.git
+cd good-first-issue
+```
+
+2. Install dependencies
+
+```bash
+bun install
+```
+
+3. Start the development server
+
+```bash
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Enter your search criteria in the search box
+2. Use filters to narrow down results by:
+   - Programming language
+   - Repository stars
+   - Issue labels
+   - Last updated date
+3. Click on an issue to view detailed information
+4. Start contributing!
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Acknowledgments
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Thanks to GitHub for providing the API
+- All the open-source projects that inspire us
+- Contributors who help improve this project
