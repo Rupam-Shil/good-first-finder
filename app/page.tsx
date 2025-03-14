@@ -71,7 +71,7 @@ export default function Home() {
 				{repositories.map((repo) => (
 					<motion.a
 						key={repo.html_url}
-						href={repo.html_url}
+						href={repo.html_url + '/contribute'}
 						target="_blank"
 						rel="noopener noreferrer"
 						className="block p-6 rounded-lg border bg-card text-card-foreground hover:shadow-lg transition-shadow"
