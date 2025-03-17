@@ -34,6 +34,8 @@ const LANGUAGES = [
 	'Rust',
 	'C++',
 	'Ruby',
+	'Solidity',
+	'Cairo',
 ];
 
 const SORT_OPTIONS = [
